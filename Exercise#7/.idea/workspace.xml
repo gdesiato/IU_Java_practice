@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa28d220-0073-45c8-b006-ae01bed9f29a" name="Changes" comment="" />
+    <list default="true" id="c9d2d3c3-2eae-481e-a583-79a859233262" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise#7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/InheritanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise#6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise#6/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +31,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2FeSAFtyCiC1t9CQuOS8Pvo0aRu" />
+  <component name="ProjectId" id="2FeV4vwUn7jiKZHEKHFZEAqfDdI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -35,9 +46,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="ConstructorOverloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.ConstructorOverloading" />
-      <module name="Exercise#6" />
+    <configuration name="InheritanceController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.InheritanceController" />
+      <module name="Exercise#7" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.*" />
@@ -50,18 +61,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConstructorOverloading" />
+        <item itemvalue="Application.InheritanceController" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fa28d220-0073-45c8-b006-ae01bed9f29a" name="Changes" comment="" />
-      <created>1664850912251</created>
+      <changelist id="c9d2d3c3-2eae-481e-a583-79a859233262" name="Changes" comment="" />
+      <created>1664852350159</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1664850912251</updated>
+      <updated>1664852350159</updated>
     </task>
     <servers />
   </component>
