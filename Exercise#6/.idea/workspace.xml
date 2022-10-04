@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa28d220-0073-45c8-b006-ae01bed9f29a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Exercise#3/Exercise#3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise#4/Exercise#4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exercise#5/Exercise#5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise#6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/MethodOverloading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Excercise#4/src/main/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Excercise#4/src/main/EqualityByReferenceByValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise#5/src/main/DataTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise#5/src/main/DataTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/CircleArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/MethodOverloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ConstructorOverloading.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +37,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="MethodOverloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.MethodOverloading" />
+    <configuration name="ConstructorOverloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.ConstructorOverloading" />
       <module name="Exercise#6" />
       <extension name="coverage">
         <pattern>
@@ -65,7 +52,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MethodOverloading" />
+        <item itemvalue="Application.ConstructorOverloading" />
       </list>
     </recent_temporary>
   </component>

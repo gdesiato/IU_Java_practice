@@ -1,6 +1,6 @@
 package main;
 
-public class MethodOverloading {
+public class ConstructorOverloading {
 
     public static void main(String[] args) {
 
@@ -25,11 +25,10 @@ public class MethodOverloading {
         System.out.println(human2);
 
     }
-
 }
 
-//            Exercises
-//                    Explain how the following line of code in the code example works.
-//                    Which constructors are called in which order?
-//                    Person human2 = new Person(human1);
+//      Exercises
+//      Explain how the following line of code in the code example works.
+//      Which constructors are called in which order?
+//      Person human2 = new Person(human1);
 
