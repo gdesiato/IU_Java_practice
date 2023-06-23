@@ -54,5 +54,9 @@ public class OperatorsMain {
 
         String phrase = s1 + s2 + s3 + s4;
         System.out.println(phrase);
+
+
+        Person person = new Person("Tom", "Galla", 56, 5.5);
+        System.out.println(person); //implicit call of the toString() method
     }
 }
