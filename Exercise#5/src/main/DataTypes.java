@@ -36,6 +36,9 @@ public class DataTypes {
         long n = 600851475143L;
         System.out.println("The largest prime factor of " + n + " is " + problem.projectEuler_3(n));
 
+        int pal = problem.projectEuler_4();
+        System.out.println(pal);
+
     }
 
 }

@@ -68,4 +68,35 @@ public class Euler {
 
         return maxPrime;
     }
+
+
+    public int projectEuler_4(){
+    int maxPalindrome = 0;
+
+        for (int i = 100; i <= 999; i++) {
+            for (int j = i; j <= 999; j++) {
+                int product = i * j;
+                if (isPalindrome(product) && product > maxPalindrome) {
+                    maxPalindrome = product;
+                }
+            }
+        }
+
+       return maxPalindrome;
+    }
+
+    public static boolean isPalindrome(int number) {
+        int reversed = 0;
+        int remainder;
+        int original = number;
+
+        while (number != 0) {
+            remainder = number % 10;
+            reversed = reversed * 10 + remainder;
+            number /= 10;
+        }
+
+        return original == reversed;
+    }
 }
+
