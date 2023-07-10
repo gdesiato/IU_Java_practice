@@ -1,5 +1,7 @@
 package main;
 
+import javax.swing.*;
+
 public class Euler {
 
     // Find the sum of all the multiples of 3 or 5 below 1000
@@ -97,6 +99,62 @@ public class Euler {
         }
 
         return original == reversed;
+    }
+
+
+    public int projectEuler5(){
+
+        int number = 0;
+
+        for(int x = 2520; x <= Integer.MAX_VALUE; x++){
+            boolean isDivisibleByAll = true;
+
+            for(int y = 1; y <= 20; y++){
+                if(x % y != 0){
+                    isDivisibleByAll = false;
+                    break;
+                }
+            }
+
+            if(isDivisibleByAll){
+                number = x;
+                break;
+            }
+        }
+        return number;
+    }
+
+
+
+    public int projectEuler6(int max){
+
+        int sumOfTheSquares = 0;
+        int squareOfTheSums = 0;
+
+        for(int x = 1; x <= max; x++){
+
+            sumOfTheSquares += Math.pow(x,2);
+
+            squareOfTheSums += x;
+
+        }
+        squareOfTheSums = squareOfTheSums * squareOfTheSums;
+
+        return squareOfTheSums - sumOfTheSquares;
+    }
+
+
+    // is prime number
+    public boolean isPrime2(int n){
+        if (n <= 1){
+            return false;
+        }
+        for (int i = 2; i <= Math.sqrt(n); i++){
+            if(n % i == 0){
+                return false;
+            }
+        }
+        return true;
     }
 }
 
