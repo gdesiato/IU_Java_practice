@@ -1,5 +1,10 @@
 package main;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+
 public class DataTypes {
 
     public static void main(String[] args) {
@@ -52,17 +57,10 @@ public class DataTypes {
          */
 
        //project Euler 7
-        int counter = 0;
+        long max = problem.maxProduct();
+        System.out.println("The max product is: " + max);
 
-        for (int k = 1; k <= Integer.MAX_VALUE; k++){
-            if(problem.isPrime2(k)){
-                counter++;
-                // System.out.println("this is prime number n." + counter + ":" + k);
-                if(counter == 10001){
-                    System.out.println("this is the prime number number 10001: " + k);
-                    break;
-                }
-            }
-        }
+
+
     }
 }
