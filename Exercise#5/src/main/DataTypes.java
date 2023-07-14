@@ -1,9 +1,6 @@
 package main;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.ArrayList;
+import java.util.Arrays;
 
 public class DataTypes {
 
@@ -30,7 +27,7 @@ public class DataTypes {
 
 
 
-        Euler problem = new Euler();
+        Euler_1_to_10 problem = new Euler_1_to_10();
 
         /*
         int a = problem.projectEuler_1();
@@ -54,13 +51,22 @@ public class DataTypes {
         int quad = problem.projectEuler6(100);
         System.out.println(quad);
 
-         */
+
 
        //project Euler 7
         long max = problem.maxProduct();
         System.out.println("The max product is: " + max);
+ */
 
-
+        // project Euler 9
+        int[] triplet = problem.projectEuler9();
+        System.out.println(Arrays.toString(triplet));
+        // calculate the product of the triplet
+        int product = 1;
+        for (int i : triplet){
+            product *= i;
+        }
+        System.out.println(product);
 
     }
 }

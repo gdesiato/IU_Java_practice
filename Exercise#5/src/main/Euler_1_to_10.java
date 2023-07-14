@@ -1,11 +1,6 @@
 package main;
 
-import javax.swing.*;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
-
-public class Euler {
+public class Euler_1_to_10 {
 
     // Find the sum of all the multiples of 3 or 5 below 1000
     public int projectEuler_1(){
@@ -197,6 +192,22 @@ public class Euler {
         }
 
         return maxProduct;
+    }
+
+
+    // project Euler 9
+
+    public int[] projectEuler9() {
+        for (int a = 1; a < 1000; a++) {
+            for (int b = a + 1; b < 1000; b++) {
+                int c = 1000 - a - b; // Since a + b + c = 1000
+                if (a * a + b * b == c * c) {
+                    System.out.println("a: " + a + ", b: " + b + ", c: " + c);
+                    return new int[]{a, b, c};
+                }
+            }
+        }
+        return new int[0];
     }
 }
 
