@@ -209,5 +209,23 @@ public class Euler_1_to_10 {
         }
         return new int[0];
     }
+
+
+    // project Euler 10
+
+    public static boolean primeCalc(long num){
+
+        if (num <= 1) return false;
+        if (num == 2) return true;
+        if (num % 2 == 0) return false;
+
+        // check if it is divisible by a number other than itself
+        // we only need to check up to the square root is because a larger factor
+        // of the number would be a multiple of a smaller factor that has already been checked.
+        for (int i = 3; i <= Math.sqrt(num); i += 2) {
+            if (num % i == 0) return false;
+        }
+        return true;
+    }
 }
 

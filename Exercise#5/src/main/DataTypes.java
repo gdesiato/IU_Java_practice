@@ -2,6 +2,8 @@ package main;
 
 import java.util.Arrays;
 
+import static main.Euler_1_to_10.primeCalc;
+
 public class DataTypes {
 
     public static void main(String[] args) {
@@ -58,6 +60,7 @@ public class DataTypes {
         System.out.println("The max product is: " + max);
  */
 
+        /*
         // project Euler 9
         int[] triplet = problem.projectEuler9();
         System.out.println(Arrays.toString(triplet));
@@ -67,6 +70,18 @@ public class DataTypes {
             product *= i;
         }
         System.out.println(product);
+
+         */
+
+
+        // project Euler 10
+        long sum = 0;
+        for (int i = 2; i < 2000000l; i++) {
+            if (primeCalc(i)) {
+                sum += i;
+            }
+        }
+        System.out.println("The sum of all prime numbers below 2 million is: " + sum);
 
     }
 }
