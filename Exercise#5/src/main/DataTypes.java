@@ -2,6 +2,7 @@ package main;
 
 import java.util.Arrays;
 
+import static java.lang.Math.round;
 import static main.Euler_1_to_10.primeCalc;
 
 public class DataTypes {
@@ -30,6 +31,8 @@ public class DataTypes {
 
 
         Euler_1_to_10 problem = new Euler_1_to_10();
+
+        ArrayExample example = new ArrayExample();
 
         /*
         int a = problem.projectEuler_1();
@@ -73,7 +76,7 @@ public class DataTypes {
 
          */
 
-
+/*
         // project Euler 10
         long sum = 0;
         for (int i = 2; i < 2000000l; i++) {
@@ -83,5 +86,11 @@ public class DataTypes {
         }
         System.out.println("The sum of all prime numbers below 2 million is: " + sum);
 
+ */
+
+
+        System.out.println("The average is: " + example.intArray());
+
+        System.out.println("the sum is: " + example.sumArray());
     }
 }
